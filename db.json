@@ -1,27 +1,62 @@
 {
-	"people": [{
-			"person_id": 12345,
-			"person_first_name": "John",
-			"person_last_name": "Smith",
-			"person_ddress": "1234 Elm Street, Boston, MA 02139",
-			"person_dob": "1/2/1980",
-			"personData": {
-				"personDiseaseFlag1": "yes",
-				"personDiseaseFlag20": "yes",
-				"personPlanType": "Medicaid"
-			}
-		},
-		{
-			"person_id": 67890,
-			"person_first_name": "Jill",
-			"person_last_name": "Jones",
-			"person_ddress": "55 Oak Drive, Cleveland, OH 44105",
-			"person_dob": "10/10/1970",
-			"personData": {
-				"personDiseaseFlag14": "yes",
-				"personDiseaseFlag17": "yes",
-				"personPlanType": "Medicare"
-			}
-		}
-	]
+  "dataset_title": "ABC health plan members",
+  "dataset_version": 1.1,
+  "dataset_date": "11/9/2020",
+  "dataset_description": "Member roster recieved from ABC 11/9/2020",
+  "people": [
+    {
+      "person_id": "5fba7ef3301e179a727debbd",
+      "person_name_first": "Terri",
+      "person_name_last": "Leonard",
+      "person_address": "839 Howard Alley, Weedville, Rhode Island, 50557",
+      "person_risk_data": {
+        "plan_type": "medicare"
+      }
+    },
+    {
+      "person_id": "5fba7ef3ac53875b381f09b3",
+      "person_name_first": "Pate",
+      "person_name_last": "Montoya",
+      "person_address": "712 Nova Court, Durham, Oklahoma, 81339",
+      "person_risk_data": {
+        "plan_type": "medicare advantage"
+      }
+    },
+    {
+      "person_id": "5fba7ef3d376816159393af9",
+      "person_name_first": "Sonya",
+      "person_name_last": "Sargent",
+      "person_address": "630 Just Court, Hartsville/Hartley, Maine, 62422",
+      "person_risk_data": {
+        "plan_type": "medicare"
+      }
+    },
+    {
+      "person_id": "5fba7ef311d5c5ac0d45cbd1",
+      "person_name_first": "Joanna",
+      "person_name_last": "Ball",
+      "person_address": "717 Llama Court, Edinburg, Virginia, 97697",
+      "person_risk_data": {
+        "plan_type": "medicare advantage"
+      }
+    },
+    {
+      "person_id": "5fba7ef3f613200b89253d7f",
+      "person_name_first": "Kent",
+      "person_name_last": "Diaz",
+      "person_address": "771 Walker Court, Bennett, Wyoming, 90970",
+      "person_risk_data": {
+        "plan_type": "medicare"
+      }
+    },
+    {
+      "person_id": "5fba7ef3d3bc42b7c932be8a",
+      "person_name_first": "Maggie",
+      "person_name_last": "Whitney",
+      "person_address": "913 Lenox Road, Nogal, New Hampshire, 91884",
+      "person_risk_data": {
+        "plan_type": "medicare"
+      }
+    }
+  ]
 }
