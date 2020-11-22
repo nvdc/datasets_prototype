@@ -1,11 +1,27 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "made by NV"
-  }
+	"people": [{
+			"person_id": 12345,
+			"person_first_name": "John",
+			"person_last_name": "Smith",
+			"person_ddress": "1234 Elm Street, Boston, MA 02139",
+			"person_dob": "1/2/1980",
+			"personData": {
+				"personDiseaseFlag1": "yes",
+				"personDiseaseFlag20": "yes",
+				"personPlanType": "Medicaid"
+			}
+		},
+		{
+			"person_id": 67890,
+			"person_first_name": "Jill",
+			"person_last_name": "Jones",
+			"person_ddress": "55 Oak Drive, Cleveland, OH 44105",
+			"person_dob": "10/10/1970",
+			"personData": {
+				"personDiseaseFlag14": "yes",
+				"personDiseaseFlag17": "yes",
+				"personPlanType": "Medicare"
+			}
+		}
+	]
 }
